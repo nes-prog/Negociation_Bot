@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "hii", "hello" , "hello there","Hey","Hola", "Hello", "Good day", "hello how are you ?"],
+     "responses": ["Helloo, can you give me your id sir "]
+      },
+      
+	        {
+        "patterns": ["My id is  ?","my id "],
+        "tag": "id_user",
+        "responses": ["Welcome, which product are you interested in give me the number please"]
+      },
+      
+	        {
+        "patterns": ["i want products","i want products", "i need", "i want", "i think i need"],
+        "tag": "quantity",
+        "responses": ["Welcome, which product are you interested in give me the number please"]
+      },
+      
+      {
+        "patterns": ["the product number is", "the product id is", "the product's id is", "the product's number is" ],
+        "tag": "id_product",
+        "responses": ["this product's price is "]
+      },
+	
+	  {
+        "patterns": ["okey gonna buy it", "i will buy it", "okey", "That's good ", "yes please okey", "yes", "yes that's good", "thanks, that's helpful", "okey yes", "yeah okey that's good"],
+        "tag": "buy",
+        "responses": ["okey, Welcome!"]
+      },
+      {
+        "patterns": ["the product's price is so high", "that's too high", "the price is high", "too high price", "no that's still", "no that's so high", "can you get below this price", "can't buy it, so high price", "sorry i can't", "No", "No sorry i can't"],
+        "tag": "negociation",
+        "responses": []
+      },
+      {
+        "patterns": ["thank you", "thanks, that's helpful", "that's helpful","thank you very much"],
+        "tag": "thank",
+        "responses": ["you're welcome ! "]
+      },
+      {"tag": "goodbye",
+        "patterns": ["goodbye", "bye", "see you again bye"],
+        "responses": ["Goodbye, have a nice day "]
+         }
+
+    ]
+  }
