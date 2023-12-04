@@ -9,7 +9,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--mode', type=str, default="train", help = 'training or test')
     args = parser.parse_args()
-    # Load constants json into dict
     if args.mode == "train":
         train_run()       
     else: 
