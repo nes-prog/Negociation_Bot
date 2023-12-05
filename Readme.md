@@ -58,7 +58,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-the project revolves around a product negotiation chatbot.  The bot is able to understand the surfer thanks to a Bert model, and to negotiate the price of a product. There’s an initial price which the chatbot starts with and a final price which the chatbot cannot get below it. The calculation of the final price is calculated by a certain equation which depends on some factors for each user.
+The project revolves around a product negotiation chatbot.  The bot is able to understand the surfer thanks to a Bert model, and to negotiate the price of a product. There’s an initial price which the chatbot starts with and a final price which the chatbot cannot get below it. The calculation of the final price is based on an equation which depends on some factors for each user.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
